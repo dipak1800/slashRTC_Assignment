@@ -15,19 +15,19 @@ export let side_Nav_Data = [
   },
   {
     iconName: <FaDesktop />,
-    path: "latestNews",
+    path: "dashboard",
   },
   {
     iconName: <FaUserFriends />,
-    path: "friendRequest",
+    path: "profile",
   },
   {
     iconName: <MdWork />,
-    path: "Work",
+    path: "pendings",
   },
   {
     iconName: <AiFillSetting />,
-    path: "setting",
+    path: "settings",
   },
 ];
 export default GiCrossedBones;

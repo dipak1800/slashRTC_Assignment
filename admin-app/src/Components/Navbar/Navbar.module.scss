@@ -17,9 +17,12 @@
         cursor: pointer;
         &:hover {
           transform: rotate(180deg);
-          color: blue;
+          color: #004cc7;
           transition: all 0.3s ease-in-out;
         }
+      }
+      .hideBar {
+        display: none;
       }
     }
     .NavbarContent {
@@ -27,6 +30,15 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      .pageRoute {
+        min-width: 30px;
+        height: auto;
+        background-color: #fff;
+        border-radius: 5px;
+        border: 0.001px solid blue;
+        opacity: 0.9;
+        padding: 1px;
+      }
       .adminPanel {
         width: 13%;
         display: flex;
@@ -35,7 +47,7 @@
           width: 23px;
           height: 23px;
           border-radius: 50%;
-          background-color: blue;
+          background-color: #004cc7;
           color: whitesmoke;
           display: flex;
           justify-content: center;
@@ -46,7 +58,7 @@
           font-size: 20px;
           &:hover {
             cursor: pointer;
-            color: blue;
+            color: #004cc7;
             transition: all 0.5s ease;
           }
         }

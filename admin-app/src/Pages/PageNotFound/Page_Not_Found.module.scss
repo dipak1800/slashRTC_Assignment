@@ -1,0 +1,39 @@
+.mainContainer {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .Page_Not_Found {
+    font-size: 15rem;
+    letter-spacing: 5px;
+    background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-position: center;
+  }
+  .appeal {
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-family: serif;
+    font-weight: 300;
+    color: grey;
+  }
+  .goBack {
+    padding: 8px 16px;
+    margin-top: 30px;
+    font-family: serif;
+    letter-spacing: 2px;
+    background-color: blue;
+    color: whitesmoke;
+    outline: none;
+    &:hover {
+      background-color: whitesmoke;
+      color: blue;
+      border: 2px solid blue;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,7 +1,8 @@
 .side_Nav {
-  width: 6%;
+  width: 4.6% !important;
   height: 100vh;
-  background-color: blue;
+  background-color: #004cc7;
+  opacity: 0.95;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -32,6 +33,10 @@
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+      .activeIcon {
+        background-color: rgba(0, 0, 0, 0.3);
+        color: orangered !important;
+      }
       .icons {
         color: aliceblue;
         font-size: 22px;
@@ -47,50 +52,6 @@
   }
 }
 .side_Nav_On {
-  width: 6%;
-  height: 100vh;
-  background-color: blue;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  top: 0;
-  box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.75);
-  transition: all 0.5s;
-  .handleIconsList {
-    list-style: none;
-    height: 90%;
-    width: 100%;
-    text-align: center;
-    .handle_SideNav_Close {
-      margin-top: 15px;
-      font-size: 25px;
-      cursor: pointer;
-      &:hover {
-        color: red;
-        transform: rotate(180deg);
-        transition: all 0.3s;
-      }
-    }
-    .handleIcons {
-      height: 88%;
-      margin-top: 10px;
-      padding: 10px 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      .icons {
-        color: aliceblue;
-        font-size: 22px;
-        cursor: pointer;
-        &:hover {
-          color: orangered;
-          transform: scale(1.13);
-          transition: all 0.2s linear;
-          background-color: rgba(255, 255, 255, 0.2);
-        }
-      }
-    }
-  }
   left: 0; //it will show side bar
   transition: all 0.3s;
 }
